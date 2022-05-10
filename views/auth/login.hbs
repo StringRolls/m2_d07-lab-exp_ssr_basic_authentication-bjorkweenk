@@ -9,6 +9,11 @@
     </label>
 
     <button type="submit"> login </button>
+
+     {{#if errorMessage}}
+    <p> There was a problem: {{errorMessage}}</p>
+    {{/if}}
+    
     </form>
     
 
